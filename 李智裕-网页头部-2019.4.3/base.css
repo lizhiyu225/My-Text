@@ -1,0 +1,162 @@
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            /* .w {
+                width: 1200px;
+                height: 200px;
+                margin: auto;
+                background-color: aqua;
+            } */
+            
+            @font-face {
+                /*声明字体 引用字体*/
+                font-family: 'icomoon';
+                src: url('fonts/icomoon.eot');
+                src: url('fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('fonts/icomoon.woff') format('woff'), url('fonts/icomoon.ttf') format('truetype'), url('fonts/icomoon.svg#SofiaProLight') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+            /* 头部开始 */
+            
+            .head {
+                height: 200px;
+                background: url(images/allbg.jpg) repeat-x;
+            }
+            
+            .layout {
+                width: 1200px;
+                margin: 0 auto;
+                overflow: hidden;
+                clear: both;
+            }
+            
+            .logo {
+                width: 700px;
+                float: left;
+                overflow: hidden;
+                margin-top: 10px;
+                background-color: brown;
+            }
+            
+            .logo a {
+                float: left;
+                overflow: hidden;
+            }
+            
+            .logo h3 {
+                float: left;
+                padding-left: 10px;
+                padding-top: 20px;
+            }
+            
+            .logo h3 a {
+                text-decoration: none;
+                color: aliceblue;
+            }
+            
+            .head-r {
+                margin-top: 10px;
+                width: 350px;
+                float: right;
+                /* background-color: blueviolet; */
+                overflow: hidden;
+            }
+            
+            .head-r.head-text {
+                font-size: 12px;
+                line-height: 30px;
+            }
+            
+            .head-text p {
+                float: right;
+            }
+            
+            .head-text a {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .head-text a:hover {
+                color: red;
+            }
+            
+            .head-text p span {
+                margin: 0 10px;
+                color: #fff;
+            }
+            
+            .search-box {
+                width: 308px;
+                height: 40px;
+                margin-top: 30px;
+                outline: none;
+                border-radius: 5px;
+                float: right;
+                background-color: #fff;
+                background-color: rgba(0, 0, 0, 0);
+                position: relative;
+            }
+            
+            .search-box input {
+                width: 305px;
+                height: 37px;
+                outline: none;
+                font-size: 20px;
+                border-radius: 5px;
+                outline: none;
+            }
+            
+            .search-box em {
+                font-family: icomoon;
+                font-size: 30px;
+                float: right;
+                font-style: normal;
+                position: absolute;
+                top: 5px;
+                right: 0px;
+                color: #ddd;
+                overflow: hidden;
+            }
+            /* 头部结束 */
+            /* 导航条开始 */
+            
+            .nav {
+                width: 1200px;
+                height: 86px;
+                margin: 0 auto;
+                background-color: #ddd;
+                overflow: hidden;
+                clear: both;
+            }
+            
+            .menu1 {
+                height: 43px;
+                background-color: #003366;
+                margin-bottom: 1px;
+            }
+            
+            .menu1 ul {
+                list-style-type: none;
+            }
+            
+            .menu1 li {
+                height: 43px;
+                float: left;
+            }
+            
+            .menu1 ul li a {
+                text-decoration: none;
+                color: #ddd;
+                display: inline-block;
+                width: 240px;
+                height: 43px;
+                text-align: center;
+                line-height: 43px;
+                font-size: 20px;
+            }
+            
+            .menu1 ul li a:hover span {
+                color: #17588c;
+            }
+            /* 导航条结束 */
