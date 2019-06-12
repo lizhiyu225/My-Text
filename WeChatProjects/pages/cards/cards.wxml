@@ -1,0 +1,22 @@
+<view class="container">
+  <!-- <view class="item">
+    <button bindtap='jumpIndentity'>身份证</button>
+  </view>
+  <view  class="item">
+    <button>驾驶证</button>
+  </view>
+  <view  class="item">
+     <button>学生证</button>
+  </view>
+  <view  class="item">
+     <button>银行卡</button>
+  </view>
+  <view  class="item">
+    <button>营业执照</button>
+  </view> -->
+  <block wx:for-items="{{cards}}" wx:key="name">
+    <view class="item" catchtap="catchTapCategory" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+      <button>{{item.name}}</button>
+    </view>
+  </block>
+</view>

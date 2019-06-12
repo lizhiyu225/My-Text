@@ -1,0 +1,6 @@
+<view class="group">
+  <view class="ph">
+    <image class="icon" src="../../images/2.png"></image>
+  </view>
+  <button bindtap='returnIndex'>返回首页</button>
+</view>

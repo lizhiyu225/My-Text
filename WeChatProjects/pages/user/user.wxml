@@ -1,0 +1,15 @@
+<!-- <view class="container">
+  <view class="papers">
+    <view><button bindtap='jumpIndentity'>身份证</button></view>
+    <view><button bindtap='jumpIndentity'>驾驶证</button></view>
+  </view>
+  <view class="return"><button bindtap='backLogs'>返回</button></view>
+</view> -->
+<view class="avatar">
+  <image src='../../images/avatar.png' bindtap='logHandle'></image>
+</view>
+<view class="cells">
+  <navigator class="item">我的订单</navigator>
+  <navigator class="item">联系我们</navigator>
+  <navigator url='/pages/settings/settings' class="item">设置</navigator>
+</view>

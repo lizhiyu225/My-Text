@@ -1,0 +1,25 @@
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 1100rpx;
+  display:flex;
+  flex-direction: column;
+}
+.head{
+  width: 100%;
+  height: 300rpx;
+  background-color:gray;
+  margin-bottom: 200rpx;
+}
+.container button{
+width: 200rpx;
+height: 100rpx;
+}
+.head image{
+  width: 100%;
+  height: 100%;
+}
+.text{
+  color: white;
+  background-color: red;
+}

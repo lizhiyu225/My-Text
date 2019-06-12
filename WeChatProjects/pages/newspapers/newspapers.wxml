@@ -1,0 +1,10 @@
+<view class="log-list">
+  <view class="newsPaper">
+    <view class="list">
+      <button bindtap='jumpCards'>川报</button>
+    </view>
+    <view class="list">
+      <button bindtap='jumpCards'>华西报</button>
+    </view>
+  </view>
+</view>

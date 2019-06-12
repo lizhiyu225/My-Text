@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="head">
+  <!-- <image src='../../images/1.jpg'></image> -->
+    <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+    </block>
+    </swiper>
+  </view>
+  <button class="text" bindtap='logBtn'>登报</button>
+</view>

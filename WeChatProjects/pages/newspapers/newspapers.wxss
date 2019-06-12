@@ -1,0 +1,11 @@
+.log-list {
+  width: 100%;
+  height: 100%;
+}
+.newsPaper{
+  width: 100%;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

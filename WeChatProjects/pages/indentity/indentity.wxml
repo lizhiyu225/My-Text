@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="card">
+    <text>报纸：华西</text>
+    <text>类型：驾驶证</text>
+  </view>
+  <textarea class="detailText" 
+    placeholder="输入您的信息"
+    bindblur="bindTextAreaBlur"
+    value="{{details}}">
+  </textarea>
+  <view class="submit">
+    <button bindTap="jumpEnd">提交</button>
+  </view>
+</view>

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    
+   
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/cards/cards",
+    "pages/indentity/indentity",
+    "pages/end/end",
+    "pages/settings/settings",
+   "pages/newspapers/newspapers"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "报纸",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon2.png",
+        "selectedIconPath": "images/icon2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

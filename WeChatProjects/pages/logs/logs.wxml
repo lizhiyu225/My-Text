@@ -1,0 +1,42 @@
+<!--logs.wxml-->
+<!-- <view class="log-list">
+  <view class="newsPaper">
+    <view class="list">
+      <button bindtap='jumpUser'>川报</button>
+    </view>
+    <view class="list">
+      <button bindtap='jumpUser'>华西报</button>
+    </view>
+  </view>
+  <view class="return">
+    <button bindtap='backIndex'>返回上一页</button>
+  </view>
+</view> -->
+<view class="container">
+  <view class="item">
+    <image src="../../images/food.jpg"></image>
+  </view>
+
+
+  <view class="item">
+    <view class="log-item">
+      <view class="logItem-info">用户名</view>
+      <view><input /></view>
+    </view>
+    <view class="log-item">
+      <view class="logItem-info">密码</view>
+      <view class="log-pwd">
+        <input style='flex-grow:1' password="true" />
+      </view>
+      <view class="txt"><text>忘记密码</text></view>
+    </view>
+    <view class="log-item">
+      <button class="log-btn" bindtap="clickBtn">登录</button>
+    </view>
+  </view>
+
+
+  <view class="item item-bottom">
+    <view>没有账户？注册</view>
+  </view>
+</view>
